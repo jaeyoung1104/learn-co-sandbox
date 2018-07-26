@@ -11,4 +11,5 @@ dogs = ['Scooby', 'Scrappy', 'Clifford', 'Pickles', 'Floyd']
 animal = None
 cats_jrs = []
 for i in cats: 
-    print(cats[i] + " Jrs")
+    cats_jrs.append(cats[i] + " Jrs")
+print(cats_jrs)
