@@ -13,3 +13,7 @@ cats_jrs = []
 for i in cats: 
   cats_jrs.append(i + " Jrs")
 print(cats_jrs)
+pets_array = []
+for i in [0,1,2,3,4]:
+  pets_array.append(cats[i] + " " + dogs[i])
+print(pets_array)
