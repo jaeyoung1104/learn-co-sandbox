@@ -18,3 +18,4 @@ for i in [0,1,2,3,4]:
   pets_array.append(cats[i] + " " + dogs[i])
 print(pets_array)
 
+more_cats = ['Horatio', 'Whiskers', 'Chesire']
