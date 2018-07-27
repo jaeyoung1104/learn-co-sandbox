@@ -22,3 +22,4 @@ more_cats = ['Horatio', 'Whiskers', 'Chesire']
 for i in more_cats:
   cats.append(i)
 print(cats)
+variable = sorted(cats,keys=lambda element: element[2])
